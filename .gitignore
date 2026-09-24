@@ -1,3 +1,8 @@
+# Large files
+*/level2/*
+*/log/S2*
+*/temp*
+*/prov*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
