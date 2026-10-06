@@ -7,7 +7,7 @@
 # into the parameter file. The file queue is mandatory for force-level2, but
 # may be NULL for force-l2ps.
 # Type: full file path
-FILE_QUEUE = /mnt/dss_project/nherrmann/innsbruck/pr/9ae75d8/bav-2026-10-05_15:08:43/8/param/queue.txt
+FILE_QUEUE = /mnt/dss_project/nherrmann/innsbruck/pr/9ae75d8/bav-2026-10-06_11:36:18/8/param/queue.txt
 # This is the output directory where the Level 2 data will be stored. Note
 # that data will be overwritten/mosaicked if you reprocess images. It is
 # safe and recommended to use a single Level 2 data pool for different
@@ -15,14 +15,14 @@ FILE_QUEUE = /mnt/dss_project/nherrmann/innsbruck/pr/9ae75d8/bav-2026-10-05_15:0
 # programs of FORCE can handle different spatial resolutions (e.g. 30m
 # Landsat and 10m Sentinel-2).
 # Type: full directory path
-DIR_LEVEL2 = /mnt/dss_project/nherrmann/innsbruck/pr/9ae75d8/bav-2026-10-05_15:08:43/8/level2
+DIR_LEVEL2 = /mnt/dss_project/nherrmann/innsbruck/pr/9ae75d8/bav-2026-10-06_11:36:18/8/level2
 DIR_LEVEL1 = /mnt/terrabyte_dss/Sentinel-2-Col-1 
 # This is the directory where logfiles should be saved.
 # Type: full directory path
-DIR_LOG = /mnt/dss_project/nherrmann/innsbruck/pr/9ae75d8/bav-2026-10-05_15:08:43/8/log
+DIR_LOG = /mnt/dss_project/nherrmann/innsbruck/pr/9ae75d8/bav-2026-10-06_11:36:18/8/log
 # This is the directory where provenance files should be saved.
 # Type: full directory path
-DIR_PROVENANCE = /mnt/dss_project/nherrmann/innsbruck/pr/9ae75d8/bav-2026-10-05_15:08:43/8/prov
+DIR_PROVENANCE = /mnt/dss_project/nherrmann/innsbruck/pr/9ae75d8/bav-2026-10-06_11:36:18/8/prov
 # This is a temporary directory that is used to extract compressed images
 # for force-level2. Note that images already need to be extracted when using
 # force-l2ps directly. The extracted data will be deleted once they were
@@ -32,7 +32,7 @@ DIR_PROVENANCE = /mnt/dss_project/nherrmann/innsbruck/pr/9ae75d8/bav-2026-10-05_
 # level2 is running. Note that the effect is not immediate, as the load is
 # only adjusted after one of the running jobs (images) is finished.
 # Type: full directory path
-DIR_TEMP = /mnt/dss_project/nherrmann/innsbruck/pr/9ae75d8/bav-2026-10-05_15:08:43/8/temp
+DIR_TEMP = /mnt/dss_project/nherrmann/innsbruck/pr/9ae75d8/bav-2026-10-06_11:36:18/8/temp
 
 # MASKING
 # ------------------------------------------------------------------------
